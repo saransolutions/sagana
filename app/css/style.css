@@ -1,0 +1,204 @@
+*
+{
+	font-size:12px;
+	font-family:verdana;
+}
+
+h1
+{
+	font-size:20px;
+	padding:0px 20px 20px;
+	margin:0px;
+	text-align:center;
+}
+
+body { background-color:#F9F9F9; }
+
+input,textarea { padding:7px; font-size:14px !important; width:250px; }
+
+p > label:first-child
+{
+	display: inline-block;
+	font-weight: 700;
+	margin-bottom: 5px;
+	padding-right: 35px;
+	text-align: right;
+	width: 135px;
+}
+
+ul li { padding:5px; }
+
+span#labeltext { margin: 3px 0px 0px 3px; }
+
+.ui-icon-triangle-1-s {	background-position: -64px -13px; }
+
+#submitbutton { width:auto; }
+
+label.ui-state-default { display:inline-block !important; }
+
+
+#container
+{
+	margin:0px auto;
+	width:800px;
+	background-color:#eee;
+	padding:20px;	
+	border-radius: 5px;
+	clear: both;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+
+ 
+  #content_cons {   
+  overflow:auto;
+  
+}
+
+#left_prod {
+  width: 35%;   
+  padding: 1px;
+     
+}
+
+#right_bucket {
+  width: 55%;   
+  padding: 1px;
+     
+}
+
+
+
+#left_prod {   
+  float:left; 
+  border-right:1px solid #D4D4BF;
+}
+#right_bucket {   float:right;
+
+}
+  
+  
+  .payButton {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #44c767), color-stop(1, #5cbf2a));
+	background:-moz-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:-webkit-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:-o-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:-ms-linear-gradient(top, #44c767 5%, #5cbf2a 100%);
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#44c767', endColorstr='#5cbf2a',GradientType=0);
+	background-color:#44c767;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:9px;
+	font-weight:bold;
+	padding:2px 4px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.payButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5cbf2a), color-stop(1, #44c767));
+	background:-moz-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:-webkit-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:-o-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:-ms-linear-gradient(top, #5cbf2a 5%, #44c767 100%);
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cbf2a', endColorstr='#44c767',GradientType=0);
+	background-color:#5cbf2a;
+}
+.payButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+		#errMsg{
+			color:red;font-size:12px;font-family:courier;
+		}
+		#nav-tab-newInv{
+			list-style:none;margin-bottom:10px;padding:5px;
+		}
+		#nav-tab-newInv a{
+			color:#000;
+			text-decoration:none;
+		}
+		#nav-tab-newInv a:hover{
+			color:#000;
+			font-weight:bold;
+			text-decoration:underline;
+		}
+		table { margin: 1em 1em 3em 3em; border-collapse: collapse; }
+		td, th { padding: 0.9em 0.9em 0.9em .9em; border: 1px #ccc solid; }
+		thead {  }
+		tbody { }
+		
+		/* Style for a href for buttons */
+		#id11{
+			font-family:verdana;font-size:12px;padding:5px;font-weight:bold;text-decoration:none;
+		}
+		#id11:hover{
+			font-family:verdana;font-size:12px;padding:5px;font-weight:bold;text-decoration:none;background:black;color:yellow;
+		}		
+	#navMovie{
+			border:1px solid #ccc;
+			border-width:1px 0;
+			list-style:none;
+			margin-top:1px;
+			margin-bottom:5px;
+			padding:0;
+			text-align:center;
+		}
+		#navMovie li{
+			position:relative;
+			display:inline;
+		}
+		#navMovie a{
+			display:inline-block;
+			padding:10px;
+			color:#c00;
+			text-decoration:none;
+			font-weight:bold;
+		}
+		#navMovie ul{
+			position:absolute;
+			/*top:100%; Uncommenting this makes the dropdowns work in IE7 but looks a little worse in all other browsers. Your call. */
+			left:-9999px;
+			margin:0;
+			padding:0;
+			text-align:left;
+		}
+		#navMovie ul li{
+			display:block;
+		}
+		#navMovie li:hover ul{
+			left:0;
+		}
+		#navMovie li:hover a{
+			text-decoration:underline;
+			background:#f1f1f1;
+		}
+		#navMovie li:hover ul a{
+			text-decoration:none;
+			background:none;
+		}
+		#navMovie li:hover ul a:hover{
+			text-decoration:underline;
+			background:#f1f1f1;
+		}
+		#navMovie ul a{
+			white-space:nowrap;
+			display:block;
+			border-bottom:1px solid #ccc;
+		}		
+	

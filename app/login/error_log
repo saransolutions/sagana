@@ -1,0 +1,2 @@
+[25-Mar-2015 21:09:02 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'saganaje_user'@'localhost' (using password: YES) in /home/saganaje/public_html/invoice/funcs/db/db.php on line 7
+[25-Mar-2015 21:09:02 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/saganaje/public_html/invoice/funcs/db/db.php on line 7
